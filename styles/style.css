@@ -82,13 +82,22 @@ em{
 
 .pull-right{
 	float:right;
+	letter-spacing: 2px;
 	font-size: 35px;
 	padding: 30px;
-	margin-right: 100px;
-	letter-spacing: 2px;
 }
 
-
+.icon-text{
+	margin-top: 5px;
+	font-size: 10px;
+	display: block;
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: initial;
+	font-family: "Avenir";
+}
 
 #logo{
 	height: 60px;
