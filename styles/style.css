@@ -78,10 +78,10 @@ em{
 
 .pull-right{
 	float: right;
-	letter-spacing: 2px;
+	letter-spacing: 10px;
 	font-size: 35px;
 	padding-top: 25px;
-	padding-right: 100px;
+	padding-right: 70px;
 }
 
 .icon-text{
@@ -94,6 +94,7 @@ em{
 	font-weight: bold;
 	letter-spacing: initial;
 	font-family: "Avenir";
+	padding-right: 10px;
 }
 
 #logo{
@@ -108,7 +109,7 @@ em{
 .main {
 	color: #1A4067;
 	float: right;
-	padding-left: 20px;
+	padding: 20px;
 	width: 88%;
 	height: 100%;
 	box-sizing: border-box;
@@ -126,6 +127,8 @@ hr {
 	height: 88px;
 }
 
+
+
 .menu-icon{
 	color: #fff;
 	font-size: 25px;
@@ -133,6 +136,16 @@ hr {
 	padding: 20px;
 	list-style: none;
 	text-decoration: none;
+}
+
+.side-icon{
+	display: block;
+	margin-bottom: 5px;
+}
+
+.side-icon-cogs{
+	display: block;
+	margin-bottom: 5px;
 }
 
 .menu-li{
