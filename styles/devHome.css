@@ -4,11 +4,11 @@
 }
 
 .btn{
-
+    position: relative;
     width: 100%;
     height: 0;
     border: 2px solid #A5A5A5;
-    z-index: -1;
+    box-shadow: 0px 4px 10px #A5A5A5;
 }
 
 .btn-box{
@@ -19,4 +19,58 @@
     color: #fff;
     font-weight: bold;
     margin: 0 auto;
+    position: absolute;
+    top: -15px;
+    left: 25%;
+    z-index: 100;
 }
+
+.btn-2{
+    position: relative;
+    width: 90%;
+    height: 0;
+    border: 2px solid #10255E;
+    box-shadow: 0px 4px 10px #A5A5A5;
+    top: 110px;
+    margin: 35px;
+}
+
+.btn-box-2{
+    border: 3px solid #475D87;
+    text-align: center;
+    width: 55%;
+    background: #10255E;
+    color: #fff;
+    font-weight: bold;
+    margin: 0 auto;
+    position: absolute;
+    top: -15px;
+    left: 24%;
+    z-index: 100;
+}
+
+.btn-3{
+    position: relative;
+    width: 85%;
+    height: 0;
+    border: 2px solid #62AE57;
+    box-shadow: 0px 4px 10px #A5A5A5;
+    top: 200px;
+    margin: 55px;
+}
+
+.btn-box-3{
+    border: 2px solid #62AE57;
+    text-align: center;
+    width: 60%;
+    background: #62AE57;
+    color: #fff;
+    font-weight: bold;
+    margin: 0 auto;
+    position: absolute;
+    top: -13px;
+    left: 22%;
+    z-index: 100;
+}
+
+
