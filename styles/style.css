@@ -41,7 +41,7 @@ em{
 	text-decoration: none;
 	color: white;
 	padding: 19px;
-	height: 16px;
+	height: 30px;
 }
 
 
@@ -55,7 +55,7 @@ em{
 .sidebar-menu li:hover .submenu {
 	max-height:200px;
 	margin: 0;
-	font-size: 20px;
+	font-size: 15px;
 }
 
 .submenu a {
