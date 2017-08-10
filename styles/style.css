@@ -40,11 +40,12 @@ em{
 }
 
 .mainmenu a {
+	font-size: 17px;
 	display: block;
 	background: #6180B9;
 	text-decoration: none;
 	color: white;
-	padding: 19px;
+	padding: 6px;
 }
 
 
