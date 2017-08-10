@@ -10,7 +10,7 @@ var display =true;
 var display2 =true;
 var display3 =true;
 h3.addEventListener("click", function(){
-    btnStyles.classList.toggle('btn-container');
+    btnStyles.classList.add('btn-container');
     if(display){
         content.style.display = "block";
     }
@@ -23,7 +23,7 @@ h3.addEventListener("click", function(){
 
 
 btn2.addEventListener("click", function(){
-    btnStyles.classList.toggle('btn-container');
+    btnStyles.classList.add('btn-container');
 
     if(display2){
         content2.style.display = "block";
@@ -37,7 +37,7 @@ btn2.addEventListener("click", function(){
 
 
 btn3.addEventListener("click", function(){
-    btnStyles.classList.toggle('btn-container');
+    btnStyles.classList.add('btn-container');
     if(display3){
         content3.style.display = "block";
     }

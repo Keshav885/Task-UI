@@ -1,0 +1,46 @@
+body{
+    background: url("../bg.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.container{
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    top: 350px;
+}
+
+.img-responsive{
+    width: 20%;
+}
+
+
+h3{
+    text-align: left;
+    border-top: 2px solid #62A09C;
+    width: 30%;
+    margin: 0 auto;
+    padding-top:10px;
+    color: #62A09C;
+    font-family: avenir;
+    font-size: 20px;
+    font-weight: normal;
+    padding-bottom: 21px;
+}
+
+button{
+    width: 10%;
+    height: 25px;
+    color: #fff;
+    background: #BD0000;
+    border-radius: 3px;
+    border: 1px solid black;
+    font-size: 15px;
+}
+
+button:focus{
+    border: 1px solid #999;
+}
