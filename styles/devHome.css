@@ -14,6 +14,7 @@
     height: 80px;
     overflow: hidden;
     margin-top: -39px;
+    padding-bottom: 36px;
 
 }
 
@@ -32,12 +33,12 @@
     color: #fff;
     font-weight: bold;
     margin: -16px auto 0;
-
+    border: 3px solid #A5A5A5;
 }
 
-/*.btn-content{*/
-    /*display: none;*/
-/*}*/
+.btn-content{
+    display: none;
+}
 
 .graymenu{
     list-style: none;
@@ -55,7 +56,7 @@
 
 .hide-content{
     overflow: hidden;
-    width: 82%;
+    width: 66%;
     margin: 0 auto;
     padding: 5px 0 25px;
 }
@@ -77,11 +78,12 @@
 
 .btn-2 h3{
     width: 50%;
-    background: #475D87;
+    background: #10255E;
     color: #fff;
     font-weight: bold;
     margin: -16px auto 0;
     text-align: center;
+    border: 3px solid #496089;
 }
 
 .float-container{
@@ -104,6 +106,8 @@
     margin-top: -80px;
     padding: 44px 0;
     background: #DEE5F1;
+    display: none;
+    
 }
 
 .btn-content2 h3{
@@ -166,6 +170,7 @@
     margin: 0 auto;
     margin-top: -80px;
     background: #ECF0DE;
+    display: none;
 }
 
 
