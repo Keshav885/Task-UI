@@ -1,8 +1,13 @@
+html {
+	height: 100%;
+}
+
 body {
 	height: 100%;
 	margin: 0;
-	font-family: "Avenir";
+	font-family: Avenir, Helvetica, sans-serif;
 	font-size: 16px;
+	overflow-scrolling: touch;
 }
 
 em{
@@ -14,6 +19,16 @@ em{
 	left: 190px;
 }
 
+.right-text{
+	float: right;
+	margin: 35px auto;
+	font-size: 20px;
+	color: #c9c9c9;
+	text-decoration: none;
+	font-weight: bold;
+	letter-spacing: initial;
+}
+
 iframe{
 	border: 1px solid #eee;
 }
@@ -22,7 +37,7 @@ iframe{
 	color: #1A4067;
 	float: left;
 	transition: all .4s ease 0s;
-	height: 120%;
+	height: 125%;
 	background: #3c669a;
 	width: 12%;
 	font-weight: bold;
@@ -39,13 +54,15 @@ iframe{
 }
 
 .mainmenu a:hover {
-	background-color: #C5C5C5;
+	color: black;
+	background-color: #14499C;
+	-webkit-transition: all 0.5s ease-out;
 }
 
 .mainmenu a {
 	font-size: 17px;
 	display: block;
-	background: #6180B9;
+	background: #14499C;
 	text-decoration: none;
 	color: white;
 	padding: 6px;
@@ -91,12 +108,13 @@ iframe{
 }
 
 .icon-text{
+	position: relative;
+	top: -4px;
 	font-size: 20px;
 	color: #c9c9c9;
 	text-decoration: none;
 	font-weight: bold;
 	letter-spacing: initial;
-	font-family: "Avenir";
 }
 
 #logo{
@@ -182,9 +200,10 @@ hr {
 	text-decoration: none;
 	color: white;
 	display: block;
-	background: #6180B9;
+	background: #14499C;
 	margin: 10px;
 	padding: 15px;
+
 }
 
 
