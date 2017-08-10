@@ -12,9 +12,11 @@ var display3 =true;
 h3.addEventListener("click", function(){
     btnStyles.classList.add('btn-container');
     if(display){
+        btnStyles.classList.add('btn-container');
         content.style.display = "block";
     }
     else{
+        btnStyles.classList.remove('btn-container');
         content.style.display = "none";
     }
     display= !display;
@@ -26,9 +28,11 @@ btn2.addEventListener("click", function(){
     btnStyles.classList.add('btn-container');
 
     if(display2){
+        btnStyles.classList.add('btn-container');
         content2.style.display = "block";
     }
     else{
+        btnStyles.classList.remove('btn-container');
         content2.style.display = "none";
     }
     display2= !display2;
@@ -39,9 +43,11 @@ btn2.addEventListener("click", function(){
 btn3.addEventListener("click", function(){
     btnStyles.classList.add('btn-container');
     if(display3){
+        btnStyles.classList.add('btn-container');
         content3.style.display = "block";
     }
     else{
+        btnStyles.classList.remove('btn-container');
         content3.style.display = "none";
     }
     display3= !display3;
