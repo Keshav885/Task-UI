@@ -8,19 +8,22 @@ body {
 em{
 	font-weight: bold;
 	font-size: 20px;
-	color: #334B7A;
+	color: #b2b3b3;
 	position: relative;
 	top: 36px;
 	left: 190px;
 }
 
+iframe{
+	border: 1px solid #eee;
+}
 
 .sidebar {
-	color:#1A4067;
+	color: #1A4067;
 	float: left;
 	transition: all .4s ease 0s;
-	height: 150%;
-	background: #3F70BC;
+	height: 120%;
+	background: #526A88;
 	width: 12%;
 	font-weight: bold;
 }
@@ -88,16 +91,12 @@ em{
 }
 
 .icon-text{
-	margin-top: 5px;
-	font-size: 10px;
-	display: block;
-	color: black;
+	font-size: 20px;
+	color: #c9c9c9;
 	text-decoration: none;
-	text-align: center;
 	font-weight: bold;
 	letter-spacing: initial;
 	font-family: "Avenir";
-	padding-right: 20px;
 }
 
 #logo{
@@ -117,6 +116,11 @@ em{
 	box-sizing: border-box;
 }
 
+.main h1{
+	margin:0;
+	font-style: 25px;
+}
+
 hr {
 	border : 0;
 	height: 1px;
@@ -125,7 +129,7 @@ hr {
 
 .heading{
 	border-bottom: 2px solid #3F70BC;
-	background: #D9D9D9;
+	background: #333333;
 	height: 88px;
 }
 
@@ -194,6 +198,7 @@ hr {
 	padding-right: 50px;
 }
 .dropbtn {
+	color: #c9c9c9;
 	outline: none;
 	background-color: transparent;
 	padding-right: 35px;
@@ -212,13 +217,13 @@ hr {
 
 .dropdown-content {
 	display: none;
+	text-align:	right;
 	position: absolute;
 	right: 40px;
 	background-color: #f9f9f9;
 	min-width: inherit;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 1;
-	-webkit-transition: all 0.5s ease-out;
 }
 
 .dropdown-content a {
@@ -226,11 +231,9 @@ hr {
 	padding: 12px 16px;
 	text-decoration: none;
 	display: block;
-	-webkit-transition: all 0.5s ease-out;
 }
 
 .dropdown-content a:hover {
-	-webkit-transition: all 0.5s ease-out;
 	border: 2px solid lightgray;
 	background-color: black;
 	color:#D9D9D9;
