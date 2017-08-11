@@ -1,11 +1,11 @@
 html {
 	height: 100%;
+	font-family: 'Roboto', sans-serif;
 }
 
 body {
 	height: 100%;
 	margin: 0;
-	font-family: Avenir, Helvetica, sans-serif;
 	font-size: 16px;
 	overflow-scrolling: touch;
 }
