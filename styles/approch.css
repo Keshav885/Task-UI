@@ -1,0 +1,44 @@
+@keyframes fadeBounce {
+
+    0% {
+        opacity: 0;
+        transform: translateY(-200%);
+    }
+
+    40% {
+        transform: translateY(0);
+    }
+
+    55% {
+        transform: translateY(-6px);
+    }
+
+    70% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    85% {
+        transform: translateY(-3px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+.justify{
+    animation: fadeBounce;
+    animation-duration: 1.5s;
+    border: 1px solid #999;
+    border-radius: 5px;
+    color: #575757;
+}
+
+.justify h2{
+    font-size: 40px;
+    color:#14499B;
+    font-weight:400;
+}

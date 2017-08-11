@@ -1,3 +1,35 @@
+@keyframes fadeBounce {
+
+    0% {
+        opacity: 0;
+        transform: translateY(-200%);
+    }
+
+    40% {
+        transform: translateY(0);
+    }
+
+    55% {
+        transform: translateY(-6px);
+    }
+
+    70% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    85% {
+        transform: translateY(-3px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+
 #spacing{
     width:80%;
     padding: 50px;
@@ -24,7 +56,15 @@
     border-bottom: 2px solid #eee;
     padding: 30px;
 }
+
+.bounce{
+    animation: fadeBounce;
+    animation-duration: 1s;
+}
+
+
 .left-content{
+
     float: left;
     width: 30%;
     display: inline;
@@ -33,6 +73,10 @@
     padding: 10px;
 }
 .image-banner{
+    opacity:0;
+    animation-name: fadeBounce;
+    animation-duration:1s;
+    animation-fill-mode: forwards;
     width: 55%;
     padding: 50px;
     position: relative;
