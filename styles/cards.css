@@ -30,6 +30,12 @@
 .w3-container{
     padding:40px;
 }
+
+.w3-container h1{
+    font-weight: unset;
+    color:#6f777b;
+
+}
 .w3-card-4{
     /* margin-top: 150px; */
     height: 300px;
