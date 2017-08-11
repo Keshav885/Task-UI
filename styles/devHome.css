@@ -24,10 +24,19 @@
     border-bottom: 2px solid #eee;
     padding: 30px;
 }
-
+.left-content{
+    float: left;
+    width: 25%;
+    display: inline;
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 10px;
+}
 .image-banner{
+    width: 65%;
     padding: 50px;
     position: relative;
+    margin-top: 50px;
     margin-bottom:40px;
     overflow: hidden;
 }
