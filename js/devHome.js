@@ -18,6 +18,8 @@ h3.addEventListener("click", function(){
     else{
         btnStyles.classList.remove('btn-container');
         content.style.display = "none";
+        content2.style.display = "none";
+        content3.style.display = "none";
     }
     display= !display;
     console.log("display=" +display)
@@ -36,6 +38,8 @@ btn2.addEventListener("click", function(){
         btnStyles.classList.remove('btn-container');
         content.style.display = "none";
         content2.style.display = "none";
+        content3.style.display = "none";
+
     }
     display2= !display2;
     console.log("display2=" + display2)
@@ -51,6 +55,7 @@ btn3.addEventListener("click", function(){
     else{
         btnStyles.classList.remove('btn-container');
         content.style.display = "none";
+        content2.style.display = "none";
         content3.style.display = "none";
     }
     display3= !display3;
