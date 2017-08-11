@@ -1,0 +1,47 @@
+
+.input-action{
+    width: 100%;
+    border: 1px solid #ccc;
+    font-size: 20px;
+    color:#1A4067;
+    outline: none;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 5px;
+
+}
+
+.w3-card{
+    height:200px;
+    width:50%;
+    float: left;
+    margin:-7px;
+    display: block;
+}
+
+.card2{
+    height:200px;
+    width:50%;
+    float: right;
+    display: block;
+
+}
+
+.w3-container{
+    padding:40px;
+}
+.w3-card-4{
+    /* margin-top: 150px; */
+    height: 300px;
+    width: 48%;
+    float: left;
+    padding-left: 0;
+}
+
+.card4{
+    /* margin-top: 150px; */
+    height: 300px;
+    width: 48%;
+    float: right;
+    padding-left: 0;
+}

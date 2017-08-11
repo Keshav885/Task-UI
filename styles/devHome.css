@@ -17,6 +17,45 @@
 
 }
 
+.home-img{
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    border-bottom: 2px solid #eee;
+    padding: 30px;
+}
+
+.image-banner{
+    padding: 50px;
+    position: relative;
+    margin-bottom:40px;
+    overflow: hidden;
+}
+
+.banner-description{
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .65);
+    padding: 15px;
+    opacity: 0;
+    transition: all, 1s;
+    transform: translateY(100%);
+}
+
+.image-banner:hover .banner-description{
+    opacity:1;
+    transform: translateY(0);
+}
+.image-banner img{
+    display: block;
+    transition: all 1s;
+}
+
+.image-banner:hover img{
+    transform: scale(1.5);
+}
 .row1{
     border: 2px solid #A5A5A5;
     width: 100%;
