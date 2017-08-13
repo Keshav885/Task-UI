@@ -50,8 +50,8 @@ iframe{
 	float: left;
 	transition: all .4s ease 0s;
 	height: 125%;
-	background: #3c669a;
-	width: 12%;
+	background: #323944;
+	width: 15%;
 	font-weight: bold;
 }
 
@@ -70,7 +70,7 @@ iframe{
 }
 
 .mainmenu a {
-	font-size: 12px;
+	font-size: 13px;
 	display: block;
 	text-decoration: none;
 	color: white;
@@ -98,7 +98,7 @@ iframe{
 
 .submenu a:hover {
 	margin: 0;
-	background-color: #666;
+	background-color: #999;
 }
 
 
@@ -137,7 +137,7 @@ iframe{
 	color: #1A4067;
 	float: right;
 	padding: 20px;
-	width: 88%;
+	width: 85%;
 	height: 100%;
 	box-sizing: border-box;
 }
@@ -165,7 +165,7 @@ hr {
 
 .heading{
 	border-bottom: 2px solid #3F70BC;
-	background: #333333;
+	background: #18252d;
 	height: 70px;
 }
 

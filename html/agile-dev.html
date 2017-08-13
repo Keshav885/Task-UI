@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="../styles/style.css">
     <link rel="stylesheet" type="text/css" href="../styles/devHome.css">
     <link rel="stylesheet" type="text/css" href="../styles/agile-dev.css">
-
+    <link rel="stylesheet" href="../styles/flip.css">
 </head>
 <body>
 
@@ -75,11 +75,41 @@
         <div class="main">
             <h1> Agile Development</h1>
             <hr>
-            <ul class="nav">
-                <li><a class="pills" href="#">Menu 1</a></li>
-                <li><a class="pills" href="#">Menu 2</a></li>
-                <li><a class="pills" href="#">Menu 3</a></li>
-            </ul>
+            <div class="cards">
+                <div style="float: left; "class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flipper">
+                        <div class="front">
+                            <p>Front</p>
+                        </div>
+                        <div class="back">
+                            <p>BACK content goes here</p>
+                            <img style="width: 50%" src="../back.png">
+                        </div>
+                    </div>
+                </div>
+                <div style="float: left; "class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flipper">
+                        <div class="front">
+                            <img style="width: 50%" src="../logo2.png">
+                        </div>
+                        <div class="back">
+                            <p>BACK content goes here</p>
+                            <img style="width: 50%" src="../back.png">
+                        </div>
+                    </div>
+                </div>
+                <div style="float: left; "class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flipper">
+                        <div class="front">
+                            <img style="width: 50%" src="../logo2.png">
+                        </div>
+                        <div class="back">
+                            <p>BACK content goes here</p>
+                            <img style="width: 50%" src="../back.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
             <iframe height="600px" width="100%" src="" name="iframe_a"></iframe>
         </div>
     </div>
