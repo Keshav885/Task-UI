@@ -21,26 +21,45 @@ body{
 h3{
     text-align: left;
     border-top: 2px solid #62A09C;
-    width: 30%;
+    width: 40%;
     margin: 0 auto;
-    padding-top:10px;
+    padding-top: 10px;
     color: #62A09C;
     font-family: avenir;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: normal;
     padding-bottom: 21px;
 }
 
 button{
     width: 10%;
-    height: 25px;
+    height: 50px;
     color: #fff;
-    background: #BD0000;
+    background: #0062B9;
     border-radius: 3px;
-    border: 1px solid black;
+    border: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+button:hover{
+    /*width: 10%;*/
     font-size: 15px;
+    height: 50px;
+    color: #fff;
+    background: #ab0000;
+    border-radius: 50%;
+    border: none;
+    transition: all .5s;
+    text-transform: uppercase;
 }
 
 button:focus{
     border: 1px solid #999;
+}
+
+button a{
+    text-decoration: none;
+    color: #fff;
 }
