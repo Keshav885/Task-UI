@@ -1,0 +1,101 @@
+
+@keyframes fadeBounce {
+
+    0% {
+        opacity: 0;
+        transform: translateY(-200%);
+    }
+
+    40% {
+        transform: translateY(0);
+    }
+
+    55% {
+        transform: translateY(-6px);
+    }
+
+    70% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    85% {
+        transform: translateY(-3px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+.boxes-container{
+    animation: fadeBounce;
+    animation-duration: 1s;
+}
+.card2{
+    animation-delay: .5s;
+}
+
+.main{
+    color: #1A4067;
+    float: right;
+    padding: 10px;
+    width: 88%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.main p{
+    margin:10px;
+}
+.input-action{
+    width: 100%;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    color: #1A4067;
+    outline: none;
+    height: 32px;
+    padding-left: 10px;
+    border-radius: 5px;
+
+}
+
+.w3-card{
+    height: 265px;
+    width: 50%;
+    float: left;
+    margin: -7px;
+    display: block;
+}
+
+.card2{
+    height:265px;
+    width:50%;
+    float: right;
+    display: block;
+
+}
+
+
+.w3-container h1{
+    font-weight: unset;
+    color:#6f777b;
+
+}
+.w3-card-4{
+    height: 300px;
+    width: 100%;
+    float: left;
+    padding-left: 0;
+    margin-top: 30px;
+}
+
+.card4{
+    /* margin-top: 150px; */
+    height: 300px;
+    width: 48%;
+    float: right;
+    padding-left: 0;
+}

@@ -1,13 +1,10 @@
 html {
-	height: 100%;
 	font-family: 'Roboto', sans-serif;
 }
 
 body {
-	height: 100%;
 	margin: 0;
 	font-size: 16px;
-	overflow-scrolling: touch;
 }
 
 em{
@@ -141,11 +138,11 @@ iframe{
 
 .main h1{
 	margin:0;
-	font-style: 25px;
 }
 
 h4{
 	color: #8e0000;
+	padding-left:10px;
 }
 
 hr {
