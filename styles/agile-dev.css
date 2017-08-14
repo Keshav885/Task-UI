@@ -71,10 +71,20 @@ div.flip-container{
     margin: 10px 10px 10px 50px;
 }
 
+.w3-container{
+    padding: 30px;
+    margin: 10px;
+}
+
 .nav{
     padding:0;
 }
 
+.w3-card-4{
+    width: 30%;
+    margin: 0;
+    display: inline-block;
+}
 
 
 .nav li{
