@@ -1,0 +1,100 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    color:#636E88;
+}
+
+
+.top-heading{
+    color:#636E88;
+    text-transform: uppercase;
+    margin: 12px 0;
+    background: #eee;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.container{
+    width: 80%;
+    padding: 0 20px 0 20px;
+}
+
+.container p{
+    padding: 10px;
+}
+.square {
+    margin: 5px;
+    display: inline-block;
+    list-style: none;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    outline: none;
+    background: #F7F8FA;
+    border-radius: 10px;
+    text-align: center;
+    width: 20%;
+}
+
+.config-logo{
+    width:200px;
+}
+
+.menu{
+    display: inline;
+    list-style: none;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    outline: none;
+    background: #C3CDD8;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.menu a{
+    padding: 10px;
+    color: #eee;
+
+    display: inline;
+    list-style: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    outline: none;
+}
+
+.menu:hover{
+    color:#fff;
+    background: #9aa4af;
+    font-size: 16px;
+    border: 1px solid #777c81;
+    transition: all .5s;
+}
+
+.menu:hover a{
+    color:#fff;
+    font-size: 16px;
+    transition: all .5s;
+}
+
+
+.square img:hover {
+    color:#74C7C6;
+}
+
+.square:hover {
+    border: 2px solid #74C7C6;
+    color:#74C7C6;
+}
+
+.square a{
+    list-style: none;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    outline: none;
+}
+
+.config-logo{
+    width: 40%;
+    padding: 15px;
+}
