@@ -34,7 +34,7 @@ i.fa.fa-user-circle{
 .right-text{
 	float: right;
 	margin: 20px auto;
-	font-size: 20px;
+	font-size: 18px;
 	color: #c9c9c9;
 	text-decoration: none;
 	font-weight: bold;
@@ -46,12 +46,11 @@ iframe{
 }
 
 .sidebar {
-	color: #1A4067;
+	color: #1b325a;
 	float: left;
 	transition: all .4s ease 0s;
 	height: 125%;
-	background: #323944;
-	width: 15%;
+	background: #526A89;
 	font-weight: bold;
 }
 
@@ -70,11 +69,11 @@ iframe{
 }
 
 .mainmenu a {
-	font-size: 13px;
+	font-size: 12px;
 	display: block;
 	text-decoration: none;
 	color: white;
-	padding: 8px;
+	padding: 15px;
 }
 
 
@@ -135,7 +134,6 @@ iframe{
 
 .main {
 	color: #1A4067;
-	float: right;
 	padding: 20px;
 	width: 85%;
 	height: 100%;
@@ -165,7 +163,7 @@ hr {
 
 .heading{
 	border-bottom: 2px solid #3F70BC;
-	background: #18252d;
+	background: #333333;
 	height: 70px;
 }
 
@@ -217,7 +215,7 @@ hr {
 	text-decoration: none;
 	color: white;
 	display: block;
-	padding: 15px;
+	padding:15px;
 	border-bottom: 1px solid #999;
 }
 

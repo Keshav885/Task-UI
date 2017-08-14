@@ -61,6 +61,7 @@
 
 }
 
+
 div.flip-container{
     color: #fff;
     background:#0B2743;
@@ -72,8 +73,10 @@ div.flip-container{
 }
 
 .w3-container{
-
     margin-bottom: 10px;
+}
+body{
+    background: #eee;
 }
 
 .nav{
@@ -82,9 +85,38 @@ div.flip-container{
 
 .w3-card-4{
     width: 30%;
-    margin: 0;
+    margin: 0 10px;
     display: inline-block;
+    border-radius: 10px;
+    border: 1px solid #0B2743;
+    background: #fff;
 }
+
+.btn-head{
+    background: #0B2743;
+    color: #fff;
+    border-radius: 9px 9px 0 0;
+}
+
+.btn-bottom{
+    background: #0B2743;
+    color: #fff;
+    border-radius: 0 0 10px 10px;
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: 10px;
+}
+
+.btn-bottom a{
+    text-decoration: none;
+}
+
+.btn-bottom:hover{
+    background: #0b5574;
+    transition: all .5s;
+}
+
 
 
 .nav li{
