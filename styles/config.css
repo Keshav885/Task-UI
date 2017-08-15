@@ -97,3 +97,13 @@ html {
     width: 40%;
     padding: 15px;
 }
+
+ body {
+      position: relative; 
+  }
+  #section1 {padding-top:50px;height:700px;color: #000; }
+  #section2 {padding-top:50px;height:700px;color: #000; }
+  #section3 {padding-top:50px;height:700px;color: #000; }
+  #section41 {padding-top:50px;height:700px;color: #000; }
+  #section42 {padding-top:50px;height:700px;color: #fff; }
+ 
