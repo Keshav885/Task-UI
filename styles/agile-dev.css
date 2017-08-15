@@ -75,6 +75,10 @@ div.flip-container{
 .w3-container{
     margin-bottom: 10px;
 }
+
+.w3-container h4{
+    color: #fff;
+}
 body{
     background: #eee;
 }
