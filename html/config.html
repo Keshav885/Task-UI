@@ -26,15 +26,11 @@
     <div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
-          <li><a href="#section1">Distributions</a></li>
+          <li><a href="#section1">Servers</a></li>
           <li><a href="#section2">Stacks</a></li>
           <li><a href="#section3">Applications</a></li>
-          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#section41">Section 4-1</a></li>
-              <li><a href="#section42">Section 4-2</a></li>
-            </ul>
-          </li>
+          <li><a href="https://ec2-54-226-62-183.compute-1.amazonaws.com/#/dashboard">Docker</a></li>
+          
         </ul>
       </div>
     </div>
@@ -42,22 +38,24 @@
 </nav>    
 
 <div id="section1" class="container-fluid">
-	<h3 class="top-heading">Distributions</h3>
+	<h3 class="top-heading">Servers</h3>
 	<form class="server-btns">
         <input type="radio" name="server" value="new"> Start a new Server
     </form>
 	<p>Select your distribution</p>
     <ul>
-        <li class="square"><img  style="width:200px; padding:14px" src="../logos/magento.png"></li>
-        <li class="square"><img  style="width:100px; padding: 10px;" src="../logos/drupal.png"></li>
-        <li class="square"><img  style="width: 147px;padding: 30px;" src="../logos/Docker.png"></li>
-        <li class="square"><img class="config-logo" src="../logos/wp.png"></li>
-        <li class="square"><img style="width:170px" src="../logos/joomla-lamp.png"></li>
-        <li class="square"><img  style="width: 183px;" src="../logos/wp-lamp.png"></li>
-        <li class="square"><img style="width:159px" src="../logos/cent-g.png"></li>
-        <li class="square"><img style="width:165px" src="../logos/j-ngnix.png"></li>
+        <li class="square"><img  style="width:100px; padding:14px; height:100px;" src="../logos/ubuntu-logo.png"></li>
+        <li class="square"><img  style="width:100px; padding: 20px; height:100px;" src="../logos/oracle-linux-logo.png"></li>
+        <li class="square"><img  style="width:100px; padding: 30px; height:100px;" src="../logos/fedora-logo.png"></li>
+        <li class="square"><img  style="width:130px; padding: 30px; height:100px;"  src="../logos/suse-logo.png"></li>
+        <li class="square"><img  style="width:100px; padding: 20px; height:100px;" src="../logos/centos-logo.jpeg"></li>
+        <li class="square"><img  style="width:150px; padding: 20px; height:100px;" src="../logos/redhat-logo.jpeg"></li>
+        <li class="square"><img  style="width:100px; padding: 30px; height:100px;" src="../logos/debian-logo.png"></li>
+        <li class="square"><img  style="width:100px; height:100px;" src="../logos/mint-logi.jpeg"></li>      
     </ul>
+	<textarea style="height:150px; width: 100%; background-color: black;"></textarea>
 
+	<button type="button" style="float:right;"><a href="#section2">Next >> </a></button>
 </div>
 <div id="section2" class="container-fluid">
 	<h3 class="top-heading">Stacks</h3>
@@ -67,15 +65,19 @@
     </form>
 	<p>Select your stack</p>
     <ul>
-        <li class="square"><img  style="width:200px; padding:14px" src="../logos/magento.png"></li>
-        <li class="square"><img  style="width:100px; padding: 10px;" src="../logos/drupal.png"></li>
-        <li class="square"><img  style="width: 147px;padding: 30px;" src="../logos/Docker.png"></li>
-        <li class="square"><img class="config-logo" src="../logos/wp.png"></li>
-        <li class="square"><img style="width:170px" src="../logos/joomla-lamp.png"></li>
-        <li class="square"><img  style="width: 183px;" src="../logos/wp-lamp.png"></li>
-        <li class="square"><img style="width:159px" src="../logos/cent-g.png"></li>
-        <li class="square"><img style="width:165px" src="../logos/j-ngnix.png"></li>
+        <li class="square" data-toggle="modal" data-target="#myModal"><img style="width:100px; padding:14px; height:100px;" src="../logos/tomcat.png"></li>
+        <li class="square" data-toggle="modal" data-target="#myModal"><img style="width:100px; padding: 10px;" src="../logos/drupal.png"></li>
+        <li class="square" data-toggle="modal" data-target="#myModal"><img style="width: 147px;padding: 30px;" src="../logos/Docker.png"></li>
+        <li class="square" data-toggle="modal" data-target="#myModal"><img class="config-logo" src="../logos/weblogic.png"></li>
+        <li class="square" data-toggle="modal" data-target="#myModal"><img style="width:100px; height:100px;" src="../logos/httpd.png"></li>
+        <li class="square" data-toggle="modal" data-target="#myModal"><img style="width: 183px; height:100px;" src="../logos/jboss.png"></li>
+        <li class="square" data-toggle="modal" data-target="#myModal"><img style="width:159px; height:100px;" src="../logos/splunk.jpg"></li>
+        <li class="square" data-toggle="modal" data-target="#myModal"><img style="width:165px; height:100px;" src="../logos/j-ngnix.png"></li>
     </ul>
+	<textarea style="height:150px; width: 100%; background-color: black; color: white">I will tell you the status of your installation</textarea>
+
+	<button type="button" style="float:right;"><a href="#section3">Next >> </a></button>
+
 </div>
 <div id="section3" class="container-fluid">
 	<h3 class="top-heading">Application</h3>
@@ -94,31 +96,53 @@
         <li class="square"><img style="width:159px" src="../logos/cent-g.png"></li>
         <li class="square"><img style="width:165px" src="../logos/j-ngnix.png"></li>
     </ul>
-</div>
-<div id="section41" class="container-fluid">
-  <h1>Section 4 Submenu 1</h1>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-</div>
-<div id="section42" class="container-fluid">
-  <h1>Section 4 Submenu 2</h1>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-</div>
+	<textarea style="height:150px; width: 100%; background-color: black; color: white">I will tell you the status of your deployment</textarea>
 
-
-
-<div class="container">
-    
-    <ul>
-        <li class="menu"><a href="#">Distributions</a></li>
-        <li class="menu"><a href="#">Stacks</a></li>
-        <li class="menu"><a href="#">Applications</a></li>
-        <li class="menu"><a href="#">DataBases</a></li>
-        <li class="menu"><a href="#">Your Images</a></li>
-    </ul>
+	<button type="button" style="float:right;">Finish </button>
 
 </div>
+
+	<!-- Modal -->
+	<div id="myModal" class="modal fade" role="dialog">
+	  <div class="modal-dialog modal-lg">
+
+		<!-- Modal content-->
+		<div class="modal-content">
+		  <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal">&times;</button>
+			<h4> Select a Server to install stack on:</h4>
+	
+		  </div>
+		  <div class="modal-body">
+			<button type="button" class="btn btn-primary btn-block" data-toggle="collapse" data-target="#demo">Redhat Servers</button>
+			<div id="demo" class="collapse well">
+				<form class="server-btns">
+					<input type="radio" name="server" value="new"> Node1
+					<input type="radio" name="server" value="old"> Node2
+				</form>	
+			</div>
+			<br>
+			
+			<button type="button" class="btn btn-primary btn-block" data-toggle="collapse" data-target="#demo1">Ubuntu Severs</button>
+			<div id="demo1" class="collapse well">
+				<form class="server-btns">
+					<input type="radio" name="server" value="new"> Node1
+					<input type="radio" name="server" value="old"> Node2
+				</form>	
+			</div>
+
+		  </div>
+		  <div class="modal-footer">
+			<button type="button" class="btn btn-success" data-dismiss="modal">Install</button>
+			<button type="button" class="btn btn-danger" data-dismiss="modal">Uninstall</button>
+		  </div>
+
+		</div>
+
+	  </div>
+	</div>
+
+
 
 </body>
 </html>
