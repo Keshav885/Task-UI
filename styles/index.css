@@ -51,7 +51,7 @@ button:hover{
     background: #ab0000;
     border-radius: 50%;
     border: none;
-    transition: all .5s;
+    transition: all .5s ease-out;
     text-transform: uppercase;
 }
 

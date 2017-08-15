@@ -16,6 +16,42 @@ em{
 	left: 190px;
 }
 
+
+/*problem page*/
+
+.btn-problem{
+	border:none;
+	outline:none;
+	background: dodgerblue;
+	color:#fff;
+	padding: 10px;
+	margin: 10px;
+}
+
+.btn-problem:hover{
+	background: #6180B9;
+	border-radius: 5px;
+	border:1px solid gray;
+	transition: all 1s ease-out;
+}
+
+
+.home-ol {
+	padding: 10px 20px 10px 20px;
+	margin:10px;
+	color:#fff;
+	background: #6180B9;
+	width: 80%;
+	text-decoration: none;
+}
+
+.home-ol a{
+	color:#fff;
+	background:#6180B9;
+	width: 100%;
+	text-decoration: none;
+}
+
 i.fa.fa-bell{
 	font-size: 25px;
 }
@@ -60,9 +96,8 @@ iframe{
 }
 
 .mainmenu a:hover {
-	color: black;
 	background-color: #14499C;
-	-webkit-transition: all 0.5s ease-out;
+	-webkit-transition: all 0.2s ease-out;
 }
 
 .mainmenu a {
